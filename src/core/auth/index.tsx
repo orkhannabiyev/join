@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
+// import { devtools, persist } from 'zustand/middleware';
 
 import { createSelectors } from '../utils';
 import type { TokenType } from './utils';
