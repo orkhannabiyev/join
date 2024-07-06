@@ -1,4 +1,4 @@
-name: example-basic-pnpm
+name: lock-pnpm
 on:
   - push
   - pull_request
