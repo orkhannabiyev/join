@@ -17,7 +17,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   splash: {
     image: './assets/splash.png',
     resizeMode: 'cover',
-    backgroundColor: '#2E3C4B',
+    backgroundColor: '#011C32',
   },
   updates: {
     fallbackToCacheTimeout: 0,
@@ -34,7 +34,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   android: {
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
-      backgroundColor: '#2E3C4B',
+      backgroundColor: '#011C32',
     },
     package: Env.PACKAGE,
   },
