@@ -22,7 +22,7 @@ export default function AddPost() {
   const { mutate: addPost, isPending } = useAddPost();
 
   const onSubmit = (data: FormType) => {
-    console.log(data);
+    // console.log(data);
     addPost(
       { ...data, userId: 1 },
       {
